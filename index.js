@@ -111,10 +111,10 @@ data.forEach((Element,index)=>{
 
 
 const main =document.querySelector(".main")
-console.log(main)
+// console.lo/g(main)
 ///
 const card =document.createElement("div")
-console.log(card)
+// console.log(card)
 
 card.classList ="card";
 
@@ -161,4 +161,3 @@ card.innerHTML += moviecard;
 main.appendChild(card);
 
 })
-a
