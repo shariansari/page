@@ -17,7 +17,9 @@
   <title>Tutions</title>
 
   <style>
-
+    body{
+      background:linear-gradient(to bottom,#f0f0f0 0,#f0f0f0 47%,#dedede 100%);
+    }
     .fix {
         display: flex;
         flex-direction: row;
@@ -40,6 +42,12 @@
         /* grid-template-columns: auto auto auto; */
 
     }
+    @media only screen and (max-width:1500px) and (min-width:1350px) {
+      .five{
+        margin-left: 20vw !important;
+      }
+      
+    }
 
     @media only screen and (max-width:1350px) {
         .fix {
@@ -57,8 +65,12 @@
             grid-template-columns: auto;
         }
         .three{
-          width: 85vw;
+          width:72vw;
         }
+        .five{
+          margin-left: 20px;
+        }
+        
       
 
     }
@@ -87,7 +99,7 @@
 </head>
 
 <body>
-  <!-- navbar -->
+   <!-- navbar -->
   <nav  class="navbar navbar-expand-lg navbar-light bg-primary">
 
     <button style="margin-left: 10px" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -106,7 +118,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span style="color:white;margin-left: 10px;">SelectCity</span>
+                    <span class="five" style="color:orange;font-weight: 700;">Selectcity</span>
                 </a>
                 <div class="dropdown-menu two container" aria-labelledby="navbarDropdown">
                   
@@ -190,6 +202,9 @@
         </form>
     </div>
 </nav>
+  <div class="container">
+ 
+
 
   
  <!-- heading -->
@@ -199,7 +214,7 @@
   <div class="boxleft ">
     <!-- left -->
     <div class="container shadow p-3 mb-5 bg-white rounded">
-    <div style="width:13vw" class="accordion one" id="accordionExample">
+    <div style="width:18vw" class="accordion one" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -210,7 +225,7 @@
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
           data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <input class="three" style="font-size:12px" type="text" placeholder="Locality/Pincode">
+            <input class="three" style="font-size:17px" type="text" placeholder="Locality/Pincode">
           </div>
         </div>
       </div>
@@ -224,7 +239,7 @@
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
           data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <input class="three" style="font-size:12px" type="text" placeholder="Enter Course">
+            <input class="three" style="font-size:17px" type="text" placeholder="Enter Course">
   
           </div>
         </div>
@@ -239,7 +254,7 @@
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
           data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <input class="three" style="font-size:12px" type="text" placeholder="Enter Subject">
+            <input class="three" style="font-size:17px" type="text" placeholder="Enter Subject">
   
           </div>
         </div>
@@ -328,6 +343,7 @@
             <div class="main"></div>
         </div>
     </div>
+</div>
 </div>
 </div>
 <script src="index.js"></script>
