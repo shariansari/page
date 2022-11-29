@@ -140,13 +140,13 @@ const moviecard = `
     <hr>
 
 </div>
-<div style="margin-top:0px;"><i class="bi bi-file-earmark-break"></i><span style="font-size:12px;">${data[index].class}class TuitionId:${data[index].tutionid}</span></div>
+<div  data-toggle="tooltip" data-placement="top" title="Course"  style="margin-top:0px;"><i class="bi bi-file-earmark-break"></i><span style="font-size:12px;">${data[index].class}class TuitionId:${data[index].tutionid}</span></div>
 <hr>
 <div style="margin-top:0px;">
     <pre><i class="bi bi-book"></i> :<span  data-toggle="tooltip" data-placement="top" title="Subject"  style="font-size:13px;">${data[index].subject}</span></pre>
 </div>
 
-<div data-toggle="tooltip" data-placement="top" title="Course Discription" style="background-color:lightblue;padding:12px;border-radius: 10px;margin-top:0px;font-size:15px;">Wanted home tutor for ${data[index].class}
+<div data-toggle="tooltip" data-placement="top" title="Tution Discription" style="background-color:lightblue;padding:12px;border-radius: 10px;margin-top:0px;font-size:15px;">Wanted home tutor for ${data[index].class}
     class, All</div>
 <button style="margin-top:8px;border-radius: 10px;background-color: rgb(10, 172, 236);"> <span
         style="color: white;font-size:13px;">view Details</span> </button>
