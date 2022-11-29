@@ -123,33 +123,33 @@ const moviecard = `
 <div class="card-body">
 
 <i class="bi bi-calendar-event"></i>
-<span>Posted on:${data[index].dtae}</span>
+<span style="font-size: 12px;">Posted on:${data[index].dtae}</span>
 
 <div class="dofix">
     <i class="bi bi-person-fill"></i>
-    <span style="font-size:20px;color: rgb(77, 92, 221);">Wanted Home Tutor For...</span>
+    <span style="font-size:15px;color: rgb(77, 92, 221);">Wanted Home Tutor For...</span>
 
 </div>
 <div>
     <i class="bi bi-geo-alt"></i>
-    <span>${data[index].location}</span>
+    <span style="font-size:13px;">${data[index].location}</span>
 </div>
 <div>
-    <span style="color: brown">Prefered :</span>
-    <i class="bi bi-person-circle"></i>${data[index].gender} <i class="bi bi-watch"></i><span>Evening</span>
+    <span style="color: brown;font-size:12px;">Prefered :</span>
+    <i class="bi bi-person-circle"></i><span style="font-size:12px;"> ${data[index].gender}</span> <i class="bi bi-watch"></i><span style="font-size:12px;">Evening</span>
     <hr>
 
 </div>
-<div><i class="bi bi-file-earmark-break"></i><span>${data[index].class}class TuitionId:${data[index].tutionid}</span></div>
+<div style="margin-top:0px;"><i class="bi bi-file-earmark-break"></i><span style="font-size:12px;">${data[index].class}class TuitionId:${data[index].tutionid}</span></div>
 <hr>
-<div>
-    <pre>  <i class="bi bi-book"></i> :<span>${data[index].subject}</span></pre>
+<div style="margin-top:0px;">
+    <pre><i class="bi bi-book"></i> :<span style="font-size:13px;">${data[index].subject}</span></pre>
 </div>
-<hr>
-<div style="background-color:lightblue;padding:20px;border-radius: 10px;">Wanted home tutor for ${data[index].class}
+
+<div style="background-color:lightblue;padding:12px;border-radius: 10px;margin-top:0px;font-size:15px;">Wanted home tutor for ${data[index].class}
     class, All</div>
 <button style="margin-top:8px;border-radius: 10px;background-color: rgb(10, 172, 236);"> <span
-        style="color: white">view Details</span> </button>
+        style="color: white;font-size:13px;">view Details</span> </button>
 
 </div>
 
