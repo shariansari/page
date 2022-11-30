@@ -136,7 +136,7 @@ const moviecard = `
 </div>
 <div>
     <span style="color: brown;font-size:12px;">Prefered :</span>
-    <i class="bi bi-person-circle"></i><span data-toggle="tooltip" data-placement="top" title="Gender"  style="font-size:12px;">${data[index].gender}</span> <i class="bi bi-watch"></i><span data-toggle="tooltip" data-placement="top" title="Timing"style="font-size:12px;">${data[index].timing}</span>
+    <i class="bi bi-person-circle"></i><span data-toggle="tooltip" data-placement="top" title="Gender"  style="font-size:12px;"> ${data[index].gender}</span> <i class="bi bi-watch"></i><span data-toggle="tooltip" data-placement="top" title="Timing"style="font-size:12px;"> ${data[index].timing}</span>
     <hr>
 
 </div>
@@ -148,8 +148,8 @@ const moviecard = `
 
 <div data-toggle="tooltip" data-placement="top" title="Tution Discription" style="background-color:lightblue;padding:12px;border-radius: 10px;margin-top:0px;font-size:15px;">Wanted home tutor for ${data[index].class}
     class, All</div>
-<button style="margin-top:8px;border-radius: 10px;background-color: rgb(10, 172, 236);"> <span
-        style="color: white;font-size:13px;">view Details</span> </button>
+<button style="margin-top:8px;border-radius: 10px;background-color :#297cba;border:none"> <span
+        style="color: white;font-size:13px;">View Details</span> </button>
 
 </div>
 

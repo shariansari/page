@@ -17,9 +17,15 @@
   <title>Tutions</title>
 
   <style>
-    body{
-      background:linear-gradient(to bottom,#f0f0f0 0,#f0f0f0 47%,#dedede 100%);
+    nav{
+      background: #297cba;
     }
+    .card{
+      margin: 5px;
+     box-shadow: 1px 4px 4px grey;
+     
+    }
+   
     .fix {
         display: flex;
         flex-direction: row;
@@ -27,7 +33,7 @@
 
     .two {
         width: 40vw;
-        background-color:  rgb(200 224 182);
+     
         border-radius:10px;
     }
 
@@ -65,7 +71,8 @@
             grid-template-columns: auto;
         }
         .three{
-          width:72vw;
+          width:80vw;
+     
         }
         .five{
           margin-left: 20px;
@@ -103,7 +110,7 @@
 
 <body>
    <!-- navbar -->
-  <nav  class="navbar navbar-expand-lg navbar-light bg-primary">
+  <nav  class="navbar navbar-expand-lg navbar-light mb-3">
 
     <button style="margin-left: 10px" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,75 +128,78 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="five" style="color:orange;font-weight: 700;">Selectcity</span>
+                    <span class="five" style="color:black;font-weight: 700;">Selectcity</span>
                 </a>
                 <div class="dropdown-menu two container" aria-labelledby="navbarDropdown">
-                  <div style="background-color:yellow;padding:6px">
+                  <div style="background-color:#297cba;padding:6px">
                   <div class="input-group six"style="width:38vw;margin:auto;">
-                    <input type="search" class="form-control rounded" placeholder="Search city" aria-label="Search" aria-describedby="search-addon" />
-                    <button type="button" class="btn btn-outline-primary">Search</button></div>
+                   
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search City" aria-label="Search"
+                    style="width: 30vw">
+                    <button class="btn btn-outline-warning my-0 my-sm-0 four" type="submit"><span
+                      style="color:black;">Search</span></button></div>
                   </div>
                     <div class="two1">
                      
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Agra</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Ahemdabad</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Banglore</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Bhopal</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Chennai</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Delhi</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Faridabad</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Gaziabad</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Hydrabad</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Indore</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Jaipur</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Kalyan</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Kanpur</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>kolkata</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Lucknow</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>ludhiana</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Meerut</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Mumbai</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Nagpur</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Nashik</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Patna</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Pune</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Rajkot</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Srinagar</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Surat</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Thane</a>
-                                <a class="dropdown-item" href="#"><i style="color: yellow"
+                                <a class="dropdown-item" href="#"><i style="color: Orange"
                                     class="bi bi-caret-right-fill"></i>Varanasi</a>
-                                    <a class="dropdown-item" href="#"><i style="color: yellow"
+                                    <a class="dropdown-item" href="#"><i style="color: Orange"
                                         class="bi bi-caret-right-fill"></i>Rajasthan</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Vadodara</a>
-                        <a class="dropdown-item" href="#"><i style="color: yellow"
+                        <a class="dropdown-item" href="#"><i style="color: Orange"
                                 class="bi bi-caret-right-fill"></i>Telangana</a>
                     </div>
                     
@@ -216,7 +226,7 @@
 
   
  <!-- heading -->
-<h1 style="text-align:center"><span style="font-size:30px">Home Tuitions / Part time Tutoring jobs</span></h1>
+
 <!-- main -->
 <div class="fix">
   <div style="margin-right: 5px;" class="boxleft ">
@@ -232,7 +242,7 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
           data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div class="accordion-body " style="display:flex;align-items: center;justify-content: center;">
             <input class="three" style="font-size:17px" type="text" placeholder="Locality/Pincode">
           </div>
         </div>
@@ -246,7 +256,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
           data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div class="accordion-body" style="display:flex;align-items: center;justify-content: center;">
             <input class="three" style="font-size:17px" type="text" placeholder="Enter Course">
   
           </div>
@@ -261,7 +271,7 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
           data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div class="accordion-body" style="display:flex;align-items: center;justify-content: center;">
             <input class="three" style="font-size:17px" type="text" placeholder="Enter Subject">
   
           </div>
@@ -344,11 +354,11 @@
   </div>
   </div>
   <!-- cards -->
-  <div class="right card shadow p-3 mb-5 bg-white rounded">
+  <div class="right card">
     <div class="row row-cols-1 row-cols-md-1 g-4">
         <div class="col">
-
-            <div class="main"></div>
+          <h1 style="text-align:center"><span style="font-size:1.5rem">Home Tuitions / Part time Tutoring jobs</span></h1><hr>
+            <div class="main container"></div>
         </div>
     </div>
 </div>
