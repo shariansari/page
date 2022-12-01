@@ -25,7 +25,7 @@ const data =[
     {  date:"17-Nov-22",
     tution:"wanted tution for home classes",
     location:"Guttaiya bagh",
-    gender:"female",
+    gender:"Female",
     timing:"Morning",
     class:"5th",
   
@@ -58,7 +58,7 @@ const data =[
         date:"11-Nov-22",
         tution:"wanted tution for home classes",
         location:"Okhla NSIC",
-        gender:"female",
+        gender:"Female",
         timing:"Morning",
         class:"1st",
       
@@ -100,7 +100,108 @@ const data =[
         tutionid:"123464",
         subject:"English"
     },
-    
+    ///////////////
+    {
+        date:"15-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Jamia Miliya Islamia",
+        gender:"Any",
+        timing:"Morning",
+        class:"1st",
+       
+        tutionid:"123456",
+        subject:"All subjects"
+    },
+    {
+        date:"16-Nov-22",
+        tution:"wanted tution for online classes",
+        location:"Gaffar manzil",
+        gender:"Male",
+        timing:"Evening",
+        class:"2nd",
+      
+        tutionid:"123457",
+        subject:"Math"
+    },
+
+    {  date:"17-Nov-22",
+    tution:"wanted tution for home classes",
+    location:"Guttaiya bagh",
+    gender:"Female",
+    timing:"Morning",
+    class:"5th",
+  
+    subject:"Science",
+    tutionid:"123458"
+    },
+    {
+        date:"17-Nov-22",
+        tution:"wanted tution for online classes",
+        location:"Quila english ganj",
+        gender:"Any",
+        timing:"Afternoon",
+        class:"10th",
+       
+        tutionid:"123459",
+        subject:"English",
+    },
+    {
+        date:"18-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Kajiyara",
+        gender:"Male",
+        timing:"Evening",
+        class:"12th",
+       
+        tutionid:"123460",
+        subject:"All subjects"
+    },
+    {
+        date:"11-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Okhla NSIC",
+        gender:"emale",
+        timing:"Morning",
+        class:"1st",
+      
+        tutionid:"123461",
+        subject:"Science",
+    },
+    {
+        date:"15-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Jamia Miliya Islamia",
+        gender:"Any",
+        timing:"Morning",
+        class:"6th",
+       
+        tutionid:"123462",
+        subject:"computer"
+    },
+    {
+       
+        date:"15-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Rajendra place",
+        gender:"Any",
+        timing:"Morning",
+        class:"1st",
+      
+        tutionid:"123463",
+        subject:"English"
+    },
+    {
+       
+        date:"15-Nov-22",
+        tution:"wanted tution for home classes",
+        location:"Khan Market",
+        gender:"Any",
+        timing:"Afternoon",
+        class:"8th",
+      
+        tutionid:"123464",
+        subject:"English"
+    },
     
     
 
@@ -148,7 +249,7 @@ const moviecard = `
 
 <div data-toggle="tooltip" data-placement="top" title="Tution Discription" style="background-color:lightblue;padding:12px;border-radius: 10px;margin-top:0px;font-size:15px;">Wanted home tutor for ${data[index].class}
     class, All</div>
-<button style="margin-top:8px;border-radius: 10px;background-color :#297cba;border:none"> <span
+<button style="margin-top:8px;border-radius: 10px;background-color  :#7a9bf7;border:none"> <span
         style="color: white;font-size:13px;">View Details</span> </button>
 
 </div>
